@@ -63,6 +63,11 @@ Responsible for communicating with the instruction memory, fetching instructions
 
 
 
+<img src="MSP430.jpg"><img>
+
+
+
+
 ## Shifter.vhd --> A component that performs right or left shifts, implemented in Lab 3.
 
 
