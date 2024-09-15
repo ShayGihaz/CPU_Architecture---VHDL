@@ -39,6 +39,10 @@ It handles communication with various memory units, executes received instructio
 
 
 
+<img src="MIPS_RTL.png"><img>
+
+
+
 ## CONTROL.vhd --> Aggregates all the control lines that the MIPS core sends to the system. 
 It can receive an instruction line, decode it, and then output the relevant signals to the subsequent stages.
 
@@ -63,10 +67,6 @@ Responsible for communicating with the instruction memory, fetching instructions
 
 
 
-<img src="MIPS_RTL.jpg"><img>
-
-
-
 
 ## Shifter.vhd --> A component that performs right or left shifts, implemented in Lab 3.
 
@@ -79,6 +79,10 @@ allowing controlled data flow through a shared I/O pin. The Dout signal drives t
 
 ## Divider_env.vhd --> A hardware accelerator performs unsigned integer division.
 It communicates externally and receives the necessary signals for the computation. This file’s role is to use interrupts along with the Divider core.
+
+
+
+<img src="DIVIDER.png"><img>
 
 
 
@@ -101,6 +105,11 @@ It coordinates multiple interrupt signals from various peripherals, ensuring tha
 
 ## GPIO.vhd --> GPIO module facilitates seamless interaction with external peripherals such as LEDs, switches, ect through memory-mapped I/O.
 The design includes an address decoder to selectively control various outputs based on specific memory addresses. It also incorporates a bidirectional pin interface (BidirPin) to manage data flow between the internal data bus and external devices, ensuring flexible and efficient communication. This GPIO module is an integral part of the MCU, enabling users to easily interface with and control external hardware within their FPGA design.
+
+
+
+
+<img src="TIMER.png"><img>
 
 
 
