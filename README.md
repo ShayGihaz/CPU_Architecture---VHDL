@@ -10,8 +10,8 @@ Data: 3/9/24
 	  and program memory ITCM for hosting the program data and code segments. 
 	* The CPU have a standard MIPS register file.
 	* A single clock (CLK) used in the design.
-
-Note: push-button KEY0 is the System RESET (brings the PC to the first program instruction)
+ 
+ Note: push-button KEY0 is the System RESET (brings the PC to the first program instruction)
 ###----------------------------------------------------------------------------------------------###
 
 Final Project README:
