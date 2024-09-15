@@ -1,8 +1,10 @@
 # FPGA By VHDL Project
-###----------------------------------------------------------------------------------------------###
+###------------------------------------------------------------------------------------------------------------------------------###
 Created by: Shay Gihaz
+
 Data: 3/9/24
-###----------------------------------------------------------------------------------------------###
+
+###------------------------------------------------------------------------------------------------------------------------------###
 
 	* Design, synthesis and analysis of MIPS CPU core (single cycle architecture) with
   	  Memory Mapped I/O, and interrupt capability.
@@ -12,9 +14,12 @@ Data: 3/9/24
 	* A single clock (CLK) used in the design.
  
  Note: push-button KEY0 is the System RESET (brings the PC to the first program instruction)
-###----------------------------------------------------------------------------------------------###
+ 
+###------------------------------------------------------------------------------------------------------------------------------###
 
 Final Project README:
+
+
 
 MCU.vhd:
 This file serves as the wrapper for the entire system. It receives the necessary inputs and outputs, connecting all the components listed below.
