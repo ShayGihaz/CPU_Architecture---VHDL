@@ -33,7 +33,7 @@ BEGIN
 			widthad_a => 8,    			-- 0x800/4 = 512 = 2^9
 			lpm_type => "altsyncram",
 			outdata_reg_a => "UNREGISTERED",
-			init_file => "C:\Program Files\Notepad++\CPU LABS\project\ModelSim\L1_Caches\asm_ver1\dmemory.hex",
+			init_file => "C:\Program Files\Notepad++\CPU LABS\project\ModelSim\L1_Caches\big_test\dmemory.hex",
 			intended_device_family => "Cyclone"
 		)
 		PORT MAP (
@@ -57,7 +57,7 @@ BEGIN
 			
 			lpm_type => "altsyncram",
 			outdata_reg_a => "UNREGISTERED",
-			init_file => "C:\Mac\Home\Downloads\cpu_project\Test_files\SW_QA_ASM_codes\Interrupt_based_IO\test2\DTCM.hex",
+			init_file => "C:\Program Files\Notepad++\CPU LABS\project\ModelSim\L1_Caches\big_test\dmemory.hex",
 			intended_device_family => "Cyclone"
 		)
 		PORT MAP (
