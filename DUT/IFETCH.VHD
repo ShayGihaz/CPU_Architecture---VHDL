@@ -42,7 +42,7 @@ BEGIN
 			widthad_a => 8,
 			lpm_type => "altsyncram",
 			outdata_reg_a => "UNREGISTERED",
-			init_file => "C:\Mac\Home\Downloads\cpu_project\Test_files\SW_QA_ASM_codes\Interrupt_based_IO\test2\ITCM.hex",
+			init_file => "C:\Program Files\Notepad++\CPU LABS\project\ModelSim\L1_Caches\big_test\program.hex",
 			intended_device_family => "Cyclone"
 		)
 		PORT MAP (
@@ -63,7 +63,7 @@ BEGIN
 			
 			lpm_type => "altsyncram",
 			outdata_reg_a => "UNREGISTERED",
-			init_file => "C:\Mac\Home\Downloads\cpu_project\Test_files\SW_QA_ASM_codes\Interrupt_based_IO\test2\ITCM.hex",
+			init_file => "C:\Program Files\Notepad++\CPU LABS\project\ModelSim\L1_Caches\big_test\program.hex",
 			intended_device_family => "Cyclone"
 		)
 		PORT MAP (
