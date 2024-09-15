@@ -14,7 +14,7 @@
 
 		      
 --------------------------------------------------------------
-
+** VHDL files are in DUT folder
 	- Design, synthesis and analysis of MIPS CPU core (single cycle architecture) with
   	  Memory Mapped I/O, and interrupt capability.
 	- This architecture include a MIPS ISA compatible CPU with data memory DTCM
