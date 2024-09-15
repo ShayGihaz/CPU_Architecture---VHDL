@@ -9,14 +9,20 @@
                -- CPU Architecture course --
 		 
 
-## Author:
+# Author:
 - Shay Gihaz
 
 		      
 --------------------------------------------------------------
-** VHDL files are in DUT folder
+## Folders:
+- DUT: VHDL files
+- L1_Caches: 3 folsers of diffrent Memory HEX and ASM fils for simulations.
+- TB: VHDL test files for the MIPS and MCU.
+- SW_QA: GPIO and Interrupt based I/O tests (Memory HEX and ASM fils).
 
 
+
+## Aim & Definition of the project:
 	- Design, synthesis and analysis of MIPS CPU core (single cycle architecture) with
   	  Memory Mapped I/O, and interrupt capability.
 	- This architecture include a MIPS ISA compatible CPU with data memory DTCM
