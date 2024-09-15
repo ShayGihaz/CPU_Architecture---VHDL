@@ -15,16 +15,16 @@
 		      
 --------------------------------------------------------------
 
-	* Design, synthesis and analysis of MIPS CPU core (single cycle architecture) with
+	- Design, synthesis and analysis of MIPS CPU core (single cycle architecture) with
   	  Memory Mapped I/O, and interrupt capability.
-	* This architecture include a MIPS ISA compatible CPU with data memory DTCM
+	- This architecture include a MIPS ISA compatible CPU with data memory DTCM
 	  and program memory ITCM for hosting the program data and code segments. 
-	* The CPU have a standard MIPS register file.
-	* A single clock (CLK) used in the design.
+	- The CPU have a standard MIPS register file.
+	- A single clock (CLK) used in the design.
  
  Note: push-button KEY0 is the System RESET (brings the PC to the first program instruction)
  
-###------------------------------------------------------------------------------------------------------###
+--------------------------------------------------------------
 
 Included VHDL files:
 
