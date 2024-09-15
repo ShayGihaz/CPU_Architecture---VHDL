@@ -109,13 +109,11 @@ The design includes an address decoder to selectively control various outputs ba
 
 
 
-<img src="TIMER.png"><img>
-
-
-
 ## Timer.vhd --> Timer component with PWM (Pulse Width Modulation) capabilities and memory-mapped I/O support. 
 This timer allows precise control over timing events and PWM signal generation, essential for various embedded system applications. The component includes configurable clock division, multiple registers for control and comparison (BTCTL, BTCNT, CCR0, CCR1), and supports memory-mapped interactions, enabling seamless integration with other hardware components. The timer is designed to be flexible, supporting different modes of operation and generating interrupts (BTIFG) based on customizable thresholds. This project demonstrates the effective use of VHDL in creating a robust timer suitable for a wide range of applications.
 
+
+<img src="TIMER.png"><img>
 
 
 
